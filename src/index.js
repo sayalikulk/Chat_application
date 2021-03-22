@@ -14,7 +14,7 @@ import SignUp from './components/SignUp';
 ReactDOM.render(
 (<BrowserRouter>
     <Switch>
-        <Route exact path='/hi' component={SignUp} />
+        <Route exact path='/signup' component={SignUp} />
         <Route exact path='/' component={Home} />
     </Switch>
 </BrowserRouter>), document.getElementById('root'));

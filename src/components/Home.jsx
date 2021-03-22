@@ -35,7 +35,7 @@ const Home=()=>{
             </li>
             <li class="nav-item">
                 <form onSubmit={handleLogout}>
-                    <button type="submit" class="nav-link" style={{backgroundColor:'#846CA8',color:'white'}}>Logout</button>
+                    <button type="submit" class="nav-link" style={{border:'none', backgroundColor:'#846CA8',color:'white'}}>Logout</button>
                 </form>
                 
             </li>
