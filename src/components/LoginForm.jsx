@@ -25,7 +25,8 @@ const LoginForm = ()=>{
         }
     }
     return (
-        <Router>
+        <>
+        <div>
             <div className="wrapper">
             <div className="form">
                 <h1 className="title">
@@ -57,7 +58,7 @@ const LoginForm = ()=>{
                     <h2 className="error">{error}</h2>
                     <p align="center">
                     <h4 style={{color:'white'}} align="center">Don't have an account?</h4>
-                    <Link to='/hi'>Sign up</Link>
+                    <Link to='/hi' style={{color:'white'}}>Sign up</Link>
                     </p>
                    
                 </form>
@@ -65,8 +66,9 @@ const LoginForm = ()=>{
             </div>
             
         </div>
-        </Router>
+        </div>
         
+        </>
     )
 }
 
